@@ -1,0 +1,356 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Welcome to Website</title>
+		<link rel="shortcut icon" href="an.ico" type="image/png">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="gradients.css"/>
+		<link rel="stylesheet" type="text/css" href="responsive.css"/>
+		<link rel="stylesheet" type="text/css" href="themes/light/light.css" media="screen" />	
+        <link rel="stylesheet" type="text/css" href="themes/dark/dark.css" media="screen" />	
+        <link rel="stylesheet" type="text/css" href="themes/bar/bar.css" media="screen" />	
+        <link rel="stylesheet" type="text/css" href="themes/default/default.css" media="screen" />	
+        <link rel="stylesheet" type="text/css" href="nivo-slider.css" media="screen" />	
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		
+
+		<script src="js/selectnav.min.js"></script>
+		<script src="js/ready.js"></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	    <script type='text/javascript' src='js/menu_jquery.js'></script>
+		<script>
+			domready(function(){
+				selectnav('nav', {
+					label: '--- Navigation --- '
+				});
+				prettyPrint()
+			})
+		</script>
+	</head>
+	<body>
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"> </script>
+   <script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#navigation");
+	var pos = s.position();					   
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		
+		if (windowpos >= pos.top) {
+			s.addClass("stick");
+		} else {
+			s.removeClass("stick");	
+		}
+	});
+});
+</script>
+		<div class="coloumn container fix">
+		     <div class="header">
+			     <div class="header_top fix">
+				     <div class="header_top_left fix floatleft ">
+					     <a href="#">Blog</a> \ 
+					     <a href="#">Courses</a> \ 
+					     <a href="#">Events</a> \ 
+					 </div>
+				     <div class="header_top_right fix floatright ">
+					   
+					     <li class="phone_icon"> 01823387518 </li> 
+					     <li class="email_icon"> somratcste@gmail.com  </li>
+					
+					 </div>
+				 </div>
+				
+			     <div class="header_mid fix">
+			         <div class="header_mid_logo fix floatleft">
+					     <h1 class="mobile_view_header">Park<span class="header_mid_logo_others">College</span></h1>
+					 </div>
+			         <div class="header_mid_social fix  floatright">
+					     <img src="images/Facebook.png" alt="fb"  />
+					     <img src="images/Twitter.png" alt="tw"  />
+					     <img src="images/Youtube.png" alt="yt"  />
+					 </div>	     
+				 </div>
+			     <div class="header_menu">
+			         <div id="cssmenu" class="floatleft">
+								<ul class="dropdown">
+								   <li class="active"><a href="index.html"><span>Home</span></a></li>
+								   <li class="has-sub"><a href="#"><span>Work</span></a>
+									  <ul>
+										 <li class="has-sub"><a href="#"><span>Java</span></a>
+											<ul>
+											   <li><a href="#"><span>Swing</span></a></li>
+											   <li class="last"><a href="#"><span>Applet</span></a></li>
+											</ul>
+										 </li>
+										 <li class="has-sub"><a href="#"><span>Web</span></a>
+											<ul>
+											   <li><a href="#"><span>php</span></a></li>
+											   <li class="last"><a href="#"><span>wordpress</span></a></li>
+											</ul>
+										 </li>
+									  </ul>
+								   </li>
+								   <li><a href="#"><span>About</span></a></li>
+								   <li class="last"><a href="#"><span>Contact</span></a></li>
+								</ul>
+					   </div>
+			         <div class="header_menu_search floatright">
+					    
+						   <!--  <input type="text" placeholder="Search" />
+						     <input type="button" value="Search" placeholder="Search" /> -->
+							 <form>
+	<input type="search" placeholder="Search">
+</form>
+						 
+					 </div>
+				     
+				 </div>
+				</div>
+			 </div>
+			 
+			 <div class="container coloumn fix">
+		     <div class="slider floatleft">
+			     <div class="slide_show">
+				
+				<div class="slider-wrapper theme-light">
+                 <div  class="nivoSlider" id="slider"> 
+				      <img src="images/beauti.jpg" alt="" /> 
+				      <img src="images/japan.jpg" alt="" /> 
+				      <img src="images/boy.jpg" alt="" /> 
+			      </div >
+				  </div>
+				
+				 </div>
+			     
+			 </div>
+			 </div>
+			 <div class="container coloumn fix">
+			 <div class="menu floatleft">
+				     <div class="menu_second second_menu_background1">
+					     <a href="#" ><img src="images/browser-icon-firefox.png" alt="" /><p>Our College</p></a>
+					 </div>
+					 <div class="menu_second second_menu_background2">
+					     <a href="#" ><img src="images/browser-icon-firefox.png" alt="" /><p>Admission</p><a>
+					 </div>
+					 <div class="menu_second second_menu_background3">
+					     <a href="#" ><img src="images/browser-icon-firefox.png" alt="" /><p>Take Tour</p></a>
+					 </div>
+					 <div class="menu_second second_menu_background4">
+					     <a href="#" ><img src="images/browser-icon-firefox.png" alt="" /><p>Scholarship</p></a>
+					 </div>
+					 <div class="menu_second second_menu_background5">
+					     <a href="#" ><img src="images/browser-icon-firefox.png" alt="" /><p>Housing</p></a>
+					 </div>
+				 </div>
+		     <div class="content fix">
+			     <div class="left_sidebar fix  floatleft">
+				     <div class="course_finder fix">
+					     <div class="header_3 fix">
+						      <h3>Course Finder</h3>
+						 </div>
+			
+						    <p>This is test program. So u can write for this test. Enjoy Programming.</p>
+							<br/>
+							<form>
+							     <input type="text" placeholder="Course Id" /><br/>
+								 <input type="text" placeholder="Keywords" /><br/>
+								 <input type="button" value="Search" />
+							</form>
+					 </div>
+				     <div class="news_letter fix">
+					      <div class="header_3 fix">
+						      <h3>News Letter</h3>
+						 </div>
+						 <p>This is test program. So u can write for this test. Enjoy Programming.</p>
+						 <br/>
+						 <form>
+						     Email <br/>
+							 <input type="text" placeholder="E-mail" /><br/>
+							 <input type="button" value="Subscribe" />
+						 </form>
+						 
+					 </div>
+				     <div class="flicker_stream fix">
+					     <div class="header_3 fix">
+						      <h3>Flicker Stream >></h3>
+						 </div>
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						  <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+						 <img src="images/DSC_3848.jpg" alt="image1" />
+					 </div>
+				 </div>
+			     <div class="main_content fix  floatleft">
+				     <div class="news fix">
+					     <div class="header_3 fix">
+								  <h3>News </h3>
+							 </div>
+					     <div class="news_content fix">
+								 
+							 <div class="news_pick_img"><img src="images/browser-icon-firefox.png" alt="" /></div>
+							 <div class="news_pick_des">
+							   
+								 <h3>What is programming ?</h3>
+								 <p class="date">April-03-2014</p> 
+								 Programming is a set of instuction . We can learn this because we love 
+								 this.Everybody how are you.
+							 </div>
+						 </div>
+						
+						 <div class="news_content fix">
+								 
+							 <div class="news_pick_img"><img src="images/browser-icon-firefox.png" alt="" /></div>
+							 <div class="news_pick_des">
+							   
+								 <h3>What is programming ?</h3>
+								 <p class="date">April-03-2014</p>
+								 Programming is a set of instuction . We can learn this because we love 
+								 this.Everybody how are you.
+							 </div>
+						 </div>
+						 <div class="news_content fix">
+								 
+							 <div class="news_pick_img"><img src="images/browser-icon-firefox.png" alt="" /></div>
+							 <div class="news_pick_des">
+							   
+								 <h3>What is programming ?</h3>
+								 April-03-2014 
+								 Programming is a set of instuction . We can learn this because we love 
+								 this.Everybody how are you.
+							 </div>
+						 </div>
+					 </div>
+				     <div class="video_tour fix">
+					     <div class="header_3 fix">
+								  <h3>Video Tour</h3>
+					     </div>
+					     <img src="images/DSC_0242.jpg" alt="" />
+					 </div>
+				 </div>
+			     <div class="right_sidebar fix floatleft">
+				     <div class="quick_link fix">
+					     <div class="header_3 fix">
+						     <h3>Quick Link</h3>
+					     </div>
+						 <div class="quick_link_menu fix">
+						     <ul>
+							     <li><a href="#" >Course</a></li>
+							     <li><a href="#" >Events</a></li>
+							     <li><a href="#" >Photo Gallery</a></li>
+							     <li><a href="#" >Portfolio</a></li>
+							 </ul>
+						 </div>
+					 </div>
+				     <div class="events fix">
+					     <div class="header_3 fix">
+						     <h3>Events</h3>
+					     </div>
+					     <div class="events_content fix">
+						     <div class="events_img fix">
+						         <img src="images/browser-icon-firefox.png" alt="" />
+						     </div>
+						     <div class="events_des fix">
+							 <h3>What is programming ?</h3><p>09.00 am to 01.00 p.m.</p>
+					         </div>
+						 </div> 
+						 
+						  <div class="events_content fix">
+						     <div class="events_img fix">
+						         <img src="images/browser-icon-firefox.png" alt="" />
+						     </div>
+						     <div class="events_des fix">
+							 <h3>What is programming ?</h3><p>09.00 am to 01.00 p.m.</p>
+					         </div>
+						 </div>
+						 <div class="events_content fix">
+						     <div class="events_img fix">
+						         <img src="images/browser-icon-firefox.png" alt="" />
+						     </div>
+						     <div class="events_des fix">
+							 <h3>What is programming ?</h3><p>09.00 am to 01.00 p.m.</p>
+					         </div>
+						 </div> 
+					 </div>
+				     <div class="sponsors fix">
+					     <div class="header_3 fix">
+						     <h3>Sponser's</h3>
+					     </div>
+						 <img src="images/blue.jpg" alt="facebook" />
+						 <img src="images/blue.jpg" alt="facebook" />
+						 <img src="images/blue.jpg" alt="facebook" />
+						 <img src="images/blue.jpg" alt="facebook" />
+					 </div>
+				 </div>	 
+			 </div>
+		 </div>
+		<div class="container coloumn footer">
+		    <div class="footer_area fix">
+			   
+			     <div class="footer_top fix">
+				     <div class="about_us fix  floatleft">
+					     <div class="header_3_footer fix"><h3>About Us</h3></div>
+						 <div class="footer_head_border"></div>
+						 <p>Computer Science and Telecommunication Engineering. This are two parts one is 
+						 computer Science and the other's part is called the telecommunication 
+						 engineering.</p>
+					 </div>
+				     <div class="about_us fix floatleft">
+					     <div class="header_3_footer fix"><h3>Tag </h3></div>
+						 <div class="footer_head_border"></div>
+						 <p>Computer Science and Telecommunication Engineering. This are two parts one is 
+						 computer Science and the other's part is called the telecommunication 
+						 engineering.</p>
+					 </div>
+				     <div class="about_us fix floatleft">
+					     <div class="header_3_footer fix"><h3>Twitter Feed</h3></div>
+						 <div class="footer_head_border"></div>
+						 <p>Computer Science and Telecommunication Engineering. This are two parts one is 
+						 computer Science and the other's part is called the telecommunication 
+						 engineering.</p>
+					 </div>
+				     <div class="about_us fix floatleft">
+					     <div class="header_3_footer fix"><h3>Recent Post</h3></div>
+						 <div class="footer_head_border"></div>
+						 <p>Computer Science and Telecommunication Engineering. This are two parts one is 
+						 computer Science and the other's part is called the telecommunication 
+						 engineering.</p>
+					 </div>
+				 </div>
+			     <div class="footer_bottom fix">
+				     &copy; copyright and designed by Asif & Somrat.
+				 </div>
+			 </div>	 
+			
+		</div>
+			<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"> </script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+   </script> 
+			
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</body>
+</html>	
